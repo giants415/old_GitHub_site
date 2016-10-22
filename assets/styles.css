@@ -7,3 +7,18 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.welcome {
+  margin-left: 1em;
+}
+
+.media-icon{
+  padding-right: .2em;
+}
+
+
+.icon {
+  display: inline-block;;
+  max-width: 2em;
+  margin-bottom: -.5em;
+}
