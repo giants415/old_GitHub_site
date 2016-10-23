@@ -2,10 +2,20 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: grey;
 }
 
 main {
   flex: 1 0 auto;
+}
+
+.sidebar{
+  /*margin-left: .3em;
+  margin-right: .3em;*/
+}
+
+.content{
+  background-color: white;
 }
 
 .welcome {
@@ -21,6 +31,14 @@ main {
   display: inline-block;;
   max-width: 2em;
   margin-bottom: -.5em;
+}
+
+.portfolio-item{
+  margin-top: 3em;
+}
+
+.button-image{
+  max-width: 40em;
 }
 
 .footer-link {
