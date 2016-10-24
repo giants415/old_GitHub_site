@@ -12,19 +12,20 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href='assets/styles.css'>
 
   </head>
   <body>
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper" id="my-header">
           <a href="#!" class="brand-logo welcome"><i class="fa fa-home media-icon" aria-hidden="true"></i>Welcome</a>
               <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Portfolio</a></li>
-                <li><a href="badges.html"><i class="fa fa-linkedin-square media-icon" aria-hidden="true"></i>LinkedIn</a></li>
-                <li><a href="badges.html"><img class = "icon" src="assets/images/octocat.png">GitHub</a></li>
-                <li><a href="badges.html"><i class="fa fa-envelope media-icon" aria-hidden="true"></i>Email</a></li>
+                <!-- <li><a href="sass.html">Portfolio</a></li> -->
+                <li><a href="https://www.linkedin.com/in/andrewvinocur"><i class="fa fa-linkedin-square media-icon" aria-hidden="true"></i>LinkedIn</a></li>
+                <li><a href="https://github.com/giants415"><img class = "icon" src="assets/images/octocat.png">GitHub</a></li>
+                <!-- <li><a href="badges.html"><i class="fa fa-envelope media-icon" aria-hidden="true"></i>Email</a></li> -->
               </ul>
         </div>
       </nav>
@@ -32,37 +33,39 @@
 
     <div class = "container center-align content">
       <div class= "row center-align">
-        <h1 class="" id="name">Andrew Vinocur</h1>
-        <span id="brand">Fontend | Full-Stack Developer</span>
-        <h5 id="phrase">Always a work in progress</h5>
+        <h2 class="" id="name">Andrew Vinocur</h2>
+        <h5 id="brand">Fontend | Full-Stack Developer</h5>
+        <span id="phrase">Always a work in progress</span>
       </div>
-      <div class= "row center-align content">
-        <div class = "col l2 m2 s2 sidebar">
+      <div class= "row center-align">
+        <div class = "col l8 m8 s8 offset-l2">
+          <div class = "waves-effect waves-light z-depth-4 portfolio-item">
+            <a href = "https://github.com/giants415/Angular_Journlr"><img class="button-image" src= "http://i.imgur.com/DlIcJHk.png"><br></img>Journlr</a>
+            <p class="MEAN-hover">MEAN Stack</p>
+            <!-- <div id="MEAN-wrapper">
+              <p class="MEAN-text">MongoDB, Express JS, Angular, Node.js</p>
+            </div> -->
+          </div>
+          <div class = "waves-effect waves-light z-depth-4 portfolio-item">
+            <a href="https://github.com/wnamen/project-vagabond"><img class="button-image" src= "http://i.imgur.com/Rab99NV.png"><br></img>Wander</a>
+            <p>Foundation - Ruby on Rails</p>
+          </div>
+          <div class = "waves-effect waves-light z-depth-4 portfolio-item">
+            <a href="https://young-ravine-84460.herokuapp.com/"><img class="button-image" src= "http://i.imgur.com/dsLi6AT.png"><br></img>Storage Space</a>
+            <p>Materialize - Ruby on Rails </p>
+          </div>
         </div>
-        <div class = "col l8 m8 s8">
-          <div class = "waves-effect waves-light z-depth-3 portfolio-item">
-            <a><img class="button-image" src= "http://i.imgur.com/Rab99NV.png"><br></img>Portfoilo Project 2</a>
-          </div>
-          <div class = "waves-effect waves-light z-depth-3 portfolio-item">
-            <a><img class="button-image" src= "http://i.imgur.com/Rab99NV.png"><br></img>Portfoilo Project 2</a>
-          </div>
-          <div class = "waves-effect waves-light z-depth-3 portfolio-item">
-            <a><img class="button-image" src= "http://i.imgur.com/Rab99NV.png"><br></img>Portfoilo Project 2</a>
-          </div>
-        </div>
-          <div class = "col l2 m2 s2 sidebar">
-          </div>
       </div>
     </div>
 
-    <footer class="page-footer">
+    <footer class="page-footer z-depth-2" id="my-footer">
       <div class="container">
           <div class="col l4 offset-l8 s12">
             <ul>
                 <h5 class="white-text">Contact Info</h5>
-                <li><a href="badges.html"><i class="fa fa-linkedin-square media-icon footer-link" aria-hidden="true"></i>LinkedIn</a></li>
-                <li id="GH-foot"><a href="badges.html"><img class = "icon footer-link" src="assets/images/octocat.png">GitHub</a></li>
-                <li><a href="badges.html"><i class="fa fa-envelope media-icon footer-link" aria-hidden="true footer-link"></i>Email</a></li>
+                <li><a href="https://www.linkedin.com/in/andrewvinocur" class = "footer-link"><i class="fa fa-linkedin-square media-icon footer-link" aria-hidden="true"></i>LinkedIn</a></li>
+                <li id="GH-foot"><a href="https://github.com/giants415" class = "footer-link"><img class = "icon footer-link" src="assets/images/octocat.png">GitHub</a></li>
+                <!-- <li><a href="badges.html"><i class="fa fa-envelope media-icon footer-link" aria-hidden="true footer-link"></i>Email</a></li> -->
             </ul>
           </div>
         </div>

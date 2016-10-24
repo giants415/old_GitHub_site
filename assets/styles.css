@@ -1,13 +1,18 @@
+nav {
+  background-color: grey;
+}
+
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: grey;
+  background-color: #efefef;
 }
 
 main {
   flex: 1 0 auto;
 }
+
 
 .sidebar{
   /*margin-left: .3em;
@@ -15,7 +20,7 @@ main {
 }
 
 .content{
-  background-color: white;
+  background-color: #d7cec7;
 }
 
 .welcome {
@@ -35,6 +40,9 @@ main {
 
 .portfolio-item{
   margin-top: 3em;
+  padding: .5em;
+  background-color: #efefef;
+  /*border: .25px black solid;*/
 }
 
 .button-image{
@@ -43,12 +51,24 @@ main {
 
 .footer-link {
   margin-top: .75em;
+  color: white;
+}
+
+#my-header{
+  background-color: #9099a2;
+}
+
+#name {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .08em;
 }
 
 #brand {
-
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-#GH-foot{
-  margin-left: -.5em;
+
+#my-footer{
+  margin-top: 0;
+  background-color: #9099a2;
 }
